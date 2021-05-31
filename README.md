@@ -5,7 +5,7 @@
 * -ve signal: Exit from SP500 to ex-US small cap ETF
 * zero line : exit all -> long term US Treasury 
 
-
+*10 year backtest with RSI data*
 ![TD simulation](https://github.com/rching/adm/blob/master/adm-td.png)
 
 
