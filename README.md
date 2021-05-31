@@ -1,6 +1,6 @@
-#Implementation of ADM algorithm in TD Ameritrade ThinkOrSwim Script 
+# Implementation of ADM algorithm in TD Ameritrade ThinkOrSwim Script 
 
-*Yellow arrow is the rebalance signal
+*Yellow arrow is the rebalance signal*
 * +ve signal: Exit from ex-US small cap ETF -> SP500
 * -ve signal: Exit from SP500 to ex-US small cap ETF
 * zero line : exit all -> long term US Treasury 
