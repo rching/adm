@@ -1,0 +1,27 @@
+input s1="spy";
+input s2="scz";
+input s3="tlt";
+input th=0.01;
+
+def m1 = (close(s1)  -close(s1)[30])/close(s1);
+def m2 = (close(s1)  -close(s1)[90])/close(s1);
+def m3 = (close(s1)  -close(s1)[180])/close(s1);
+
+def sclose = close(s2);
+def sm1 = (sclose  - sclose[30])/sclose;
+def sm2 = (sclose  -sclose[90])/sclose;
+def sm3 = (sclose  -sclose[180])/sclose;
+
+
+plot zero=0;
+
+plot adm = (m1+m2+m3)/3;
+plot sadm = (sm1+sm2+sm3)/3;
+
+plot res = if adm > sadm +th then 
+                if adm > 0 then 0.3 else 0
+           else
+                if sadm  > 0 then -0.3 else 0; 
+
+
+
