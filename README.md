@@ -1,4 +1,4 @@
-Implementation of ADM algorith in TD Ameritrade ThinkOrSwim Scriptm 
+Implementation of ADM algorith in TD Ameritrade ThinkOrSwim Script 
 
 ![TD simulation](https://github.com/rching/adm/blob/master/adm-td.png)
 
